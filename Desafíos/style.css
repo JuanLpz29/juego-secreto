@@ -1,0 +1,86 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container__contenido {
+    padding: 20px;
+}
+
+.container__informaciones {
+    margin-bottom: 20px;
+}
+
+.container__texto h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    color: #333333;
+}
+
+.container__texto p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.container__input {
+    width: 30%; /* Ajusta el ancho para valores pequeños */
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center; /* Centra el texto dentro del input */
+}
+
+.container__botones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que los botones se ajusten si no caben en una línea */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.container__boton {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0; /* Ajusta el margen para separación en el eje Y */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+
+    .container__boton:hover {
+        background-color: #0056b3;
+}
+
+.container__boton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.container__imagen-persona {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #cccccc;
+    margin-top: 20px;
+}

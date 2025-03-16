@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafíos</title>
+</head>
+<body>
+
+    <h1 id="title"></h1>
+    <div class="container__botones">
+        <button onclick="mostrarIMC();" class="container__boton">IMC</button>
+        <button onclick="mostrarFactorial();" class="container__boton">Factorial</button>
+        <button onclick="mostrarConverter();" class="container__boton">Converter</button>
+        <button onclick="mostrarAP();" class="container__boton">ÁreaPerímetro1</button>
+        <button onclick="mostrarAP2();" class="container__boton">ÁreaPerímetro2</button>
+        <button onclick="mostrarTabla();" class="container__boton">TablaProducto</button>
+    </div>
+    <p id="instrucciones"></p>
+    <input type="text" id="primero" class="container__input" style="display: none;">
+    <input type="text" id="segundo" class="container__input" style="display: none;">
+    <button id="calcular" class="container__boton">Calcular</button>
+    <p id="resultado"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
